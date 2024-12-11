@@ -3,11 +3,11 @@ import { resolve } from "path";
 
 export default defineConfig({
   base: '/Get-My-IP-Web-App/',
-    build: {
-      rollupOptions: {
-        input: {
-          // main: resolve(__dirname, "index.html"),
-        },
-      },
-    },
+  // build: {
+  //   rollupOptions: {
+  //     input: {
+  //       // main: resolve(__dirname, "index.html"),
+  //     },
+  //   },
+  // },
 });
